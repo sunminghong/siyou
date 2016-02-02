@@ -1,14 +1,35 @@
-exclude: _bak, _sites
-markdown: rdiscount
-pygments: false
-plugins: ./_plugins
-excerpt_separator: " "
-
-title: 四有自然农庄 
 url: http://siyou.5d13.cn
 feed: /atom.xml
 author:
     name: 心农
     email: 5d13.cn@gmail.com
     twitter: http://weibo.com/5d13cn
+
+# Site settings
+title: 四有自然农法
+email: 5d13.cn@gmail.com
 description: “本站是 心农 学习了自然农法/自然农业、生态农业、朴门永续设计等等相关书籍、视频后的整理总结、笔记以及实践实录
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  sunminghong
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+#markdown: rdiscount
+#pygments: false
+
+paginate: 10
+paginate_path: "page:num"
+
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
