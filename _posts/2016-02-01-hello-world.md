@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: 你好，世界
+categories: other
 ---
 
 <h2>{{ page.title }}</h2>
